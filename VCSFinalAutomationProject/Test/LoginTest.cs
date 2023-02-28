@@ -10,8 +10,8 @@ namespace VCSFinalAutomationProject.Test
             loginPage.NavigateToPage();
             loginPage.AcceptCookies();
             loginPage.ClickLoginButton();
-            loginPage.InsertEmailToInputField("kristupas.jusys+03@gmail.com");
-            loginPage.InsertPasswordInputs("Tester123!");
+            loginPage.InsertEmailToInputField("");
+            loginPage.InsertPasswordInputs("");
             loginPage.LoginAction();
             loginPage.VerifyResult("Mano duomenys");
         }

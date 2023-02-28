@@ -11,8 +11,8 @@ namespace VCSFinalAutomationProject.Test
             logoutPage.NavigateToPage();
             loginPage.AcceptCookies();
             loginPage.ClickLoginButton();
-            loginPage.InsertEmailToInputField("kristupas.jusys+03@gmail.com");
-            loginPage.InsertPasswordInputs("Tester123!");
+            loginPage.InsertEmailToInputField("");
+            loginPage.InsertPasswordInputs("");
             loginPage.LoginAction();
             logoutPage.ClickLogoutButton();
             logoutPage.VerifyResult("Jūs atsijungėte nuo savo paskyros. Dabar saugu palikti kompiuterį be priežiūros.");

@@ -23,7 +23,7 @@ namespace VCSFinalAutomationProject.Test
             purchasePage.StartCheckout();
             purchasePage.WarrantyExtension();
             purchasePage.CheckoutButton();
-            purchasePage.PayerInfoVerification("VilniusCoding", "School", "kristupas.jusys@gmail.com", "+37061698977");
+            purchasePage.PayerInfoVerification("VilniusCoding", "School", "kristupas.jusys+03@gmail.com", "+37061698977");
             purchasePage.AgreeAndContinueToShipping();
             purchasePage.DeliveryType("Ulonų g. 5", "Vilnius", "08240");
             purchasePage.VerifyOnlineBanking("Elektroninė bankininkystė");

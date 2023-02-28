@@ -4,7 +4,6 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Threading;
-using System.Timers;
 
 namespace VCSFinalAutomationProject.Page
 {
@@ -112,7 +111,6 @@ namespace VCSFinalAutomationProject.Page
 
         public void DeliveryType(string streetAdress, string cityAdress, string postCodes)
         {
-            Thread.Sleep(1000);
 
             selectShipping.Click();
             WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(10));

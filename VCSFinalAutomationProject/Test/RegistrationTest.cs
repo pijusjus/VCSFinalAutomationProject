@@ -9,12 +9,12 @@ namespace VCSFinalAutomationProject.Test
         {
             registrationPage.NavigateToPage();
             registrationPage.AcceptCookies();
-            registrationPage.InputFirstName("VilniusCoding");
-            registrationPage.InputLastName("School");
-            registrationPage.InputEmailField("kristupas.jusys+04@gmail.com");
-            registrationPage.InputPhoneField("+37061698976");
-            registrationPage.InputPasswordField("Tester123!");
-            registrationPage.InputRepeatPassword("Tester123!");
+            registrationPage.InputFirstName("");
+            registrationPage.InputLastName("");
+            registrationPage.InputEmailField("");
+            registrationPage.InputPhoneField("");
+            registrationPage.InputPasswordField("");
+            registrationPage.InputRepeatPassword("");
             //registrationPage.RemoveAd();
             registrationPage.RadioSubscibe();
             registrationPage.AcceptTerms();
