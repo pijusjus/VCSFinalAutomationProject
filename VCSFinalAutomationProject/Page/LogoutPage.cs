@@ -12,7 +12,7 @@ namespace VCSFinalAutomationProject.Page
     public class LogoutPage : BasePage
     {
         private const string AdressUrl = "https://elektromarkt.lt";
-        private IWebElement logoutButton => Driver.FindElement(By.XPath("//*[@id=\"content\"]/div/div[4]/a"));
+        private IWebElement logoutButton => Driver.FindElement(By.XPath("//*[@id=\"content\"]/div/div[3]/a/div"));
         private IWebElement logoutMessage => Driver.FindElement(By.XPath("//*[@id=\"content\"]/p[1]"));
         
 

@@ -11,7 +11,7 @@ namespace VCSFinalAutomationProject.Test
             logoutPage.NavigateToPage();
             loginPage.AcceptCookies();
             loginPage.ClickLoginButton();
-            loginPage.InsertEmailToInputField("kristupas.jusys@gmail.com");
+            loginPage.InsertEmailToInputField("kristupas.jusys+03@gmail.com");
             loginPage.InsertPasswordInputs("Tester123!");
             loginPage.LoginAction();
             logoutPage.ClickLogoutButton();
