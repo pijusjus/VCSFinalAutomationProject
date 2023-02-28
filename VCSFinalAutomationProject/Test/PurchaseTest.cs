@@ -10,8 +10,8 @@ namespace VCSFinalAutomationProject.Test
             loginPage.NavigateToPage();
             loginPage.AcceptCookies();
             loginPage.ClickLoginButton();
-            loginPage.InsertEmailToInputField("kristupas.jusys+03@gmail.com");
-            loginPage.InsertPasswordInputs("Tester123!");
+            loginPage.InsertEmailToInputField("");
+            loginPage.InsertPasswordInputs("");
             loginPage.LoginAction();
             //registrationPage.RemoveAd();
             purchasePage.MainSite();
@@ -23,9 +23,9 @@ namespace VCSFinalAutomationProject.Test
             purchasePage.StartCheckout();
             purchasePage.WarrantyExtension();
             purchasePage.CheckoutButton();
-            purchasePage.PayerInfoVerification("VilniusCoding", "School", "kristupas.jusys+03@gmail.com", "+37061698977");
+            purchasePage.PayerInfoVerification("", "", "", "");
             purchasePage.AgreeAndContinueToShipping();
-            purchasePage.DeliveryType("Ulonų g. 5", "Vilnius", "08240");
+            purchasePage.DeliveryType("", "", "");
             purchasePage.VerifyOnlineBanking("Elektroninė bankininkystė");
 
         }
