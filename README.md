@@ -84,6 +84,17 @@
       5. Enter Password
       6. Click Login
       7. Go to the landing page
-      8. Select 
+      8. Mouse over "Prekiu Katalogas" dropdown menu
+      9. Select any catalog
+      10. Select Category
+      11. Select Product
+      12. Add to Cart
+      13. Click to checkout
+      14. Select Warranty plan
+      15. Proceed to checkout
+      16. Fill out shipping information
+      17. Continue to payment method selection
       
-##### Expected Result: The user has succesfully found a product.
+      
+      
+##### Expected Result: The user has succesfully reached the payment method selection screen.
